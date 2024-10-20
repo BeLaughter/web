@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> 
+</head>
+<body>
+
+<div class="container">
+
+  <nav class="navbar navbar-expand-sm bg-success">
+    <ul class="navbar-nav">
+
+      <li class="nav-item dropdown"> <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"> LION </a>
+        <ul class="dropdown-menu" >
+          <li><img src="img/lion.jpg" style="width:200px;"><br><p class="p11"> A pride of lions </p></li>
+        </ul>
+       </li>
+
+       <li class="nav-item dropdown"> <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"> TIGER</a>
+       <ul class="dropdown-menu">
+          <li><img src="img/tiger.jpg" style="width:200px;"><br><p class="p11">I am a Tiger </p></li>
+        </ul>
+         </li>
+
+        <li class="nav-item dropdown"> <a href="#" class="nav-link dropdown-toggle"data-bs-toggle="dropdown"> LEOPARD</a>
+        <ul class="dropdown-menu">
+          <li><img src="img/leopard.jpg" style="width:200px;"><br><p class="p11">I am a Leopard </p></li>
+        </ul>
+         </li>
+
+          <li class="nav-item dropdown"> <a href="#" class="nav-link dropdown-toggle"data-bs-toggle="dropdown"> EAGLE</a>
+        <ul class="dropdown-menu">
+          <li><img src="img/eagle.jpg" style="width:200px;"><br><p class="p11">I am an Eagle </p></li>
+        </ul>
+         </li>
+
+    </ul>
+  </nav> 
+</div>
+
+
+<div class="container">
+
+<ul class="nav nav-tabs bg-info">
+  <li class="nav-item"> <a href="#lion" data-bs-toggle="tab" class="nav-link active"> LION</a></li>
+  <li class="nav-item"> <a href="#tiger" data-bs-toggle="tab"  class="nav-link"> TIGER</a></li>
+   <li class="nav-item"> <a href="#leopard" data-bs-toggle="tab" class="nav-link"> LEOPARD</a></li>
+    <li class="nav-item"> <a href="#eagle" data-bs-toggle="tab" class="nav-link">EAGLE</a></li>
+</ul>
+
+<div class="tab-content">
+ <div id="lion" class="tab-pane active">
+    <p class="p1">LION</p>
+    <br>
+    <img src="img/lion.jpg" style="width:400px;">
+    <br>
+    <p class="p11">A pride of Lions</p>
+  </div>
+  
+  <div id="tiger" class="tab-pane ">
+    <p class="p1">TIGER</p>
+    <br>
+    <img src="img/tiger.jpg" style="width:400px; height: 300px;">
+    <br>
+    <p class="p11">I AM A TIGER</p>
+  </div>
+
+  <div id="leopard" class="tab-pane fade ">
+    <p class="p1">LEOPARD</p>
+    <br>
+    <img src="img/leopard.jpg"style="width:400px;">
+    <br>
+    <p class="p11">I AM A LEOPARD</p>
+  </div>
+
+  <div id="eagle" class="tab-pane fade ">
+    <p class="p1">EAGLE</p>
+    <br>
+    <img src="img/eagle.jpg" style="width:400px;">
+    <p class="p11">I AM AN EAGLE</p>
+  </div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="container">
+ <button data-bs-target="#demo" data-bs-toggle="collapse" class="btn btn-dark"> CLICK HERE </button>
+    <br><br>
+<div id="demo" class="collapse">
+  <div id="card" class="card bg-info" >
+    <div class="card-body">
+      <img src="img/image_9.jfif" height="200px" class="card-img-top">
+      <br><br>
+      <h4 class="card-title">Octavia Kate</h4>
+      <p class="card-text">qualifications</p>
+      <a href="index.html" class="btn btn-success">Go Home</a>
+    </div>
+    </div>
+</div>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script src="scr.js"></script>
+</body>
+</html>
+
